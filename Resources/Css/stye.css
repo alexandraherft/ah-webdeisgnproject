@@ -1,3 +1,18 @@
-body{
-    background-color: rgba(127, 255, 212, 0.308)
-};
+body{background-color: rgba(255, 255, 255, 0)}
+h1 {
+    font-size:60px;
+    font-style: italic;
+    color:rgb(167, 116, 116)
+}   
+h2 { font-size: 20px;
+    font-style: normal;
+    color:rgb(167, 116, 150);}
+
+h3 { font-size: medium;
+    font-style: normal;
+    color: slategrey;}
+
+p {font-size: smaller;
+font-style: oblique;
+color: thistle;}
+
