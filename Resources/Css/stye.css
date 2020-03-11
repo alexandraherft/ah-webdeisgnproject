@@ -1,6 +1,19 @@
+/* -------------------- VARIABLES */
+
+
+/* -------------------- GLOBAL DEFAULTS */
 body{background-color: rgba(255, 255, 255, 0)}
+
+
+/* -------------------- HEADINGS AND TYPE */
+
+
+/* -------------------- LAYOUTS */
+
+
+/* -------------------- HEADER */
 h1 {
-    font-size:60px;
+    font-size:40px;
     font-style: italic;
     color:rgb(167, 116, 116)
 }   
@@ -15,4 +28,27 @@ h3 { font-size: medium;
 p {font-size: smaller;
 font-style: oblique;
 color: thistle;}
+
+
+/* -------------------- NAVIGATION */
+
+
+/* -------------------- FOOTER */
+
+
+/* -------------------- MODULES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
