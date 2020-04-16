@@ -4,13 +4,26 @@
 
 body {
     background-color: oldlace;   
-    font-family: font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;  
     font-size: 18px;
     color: black;
     line-height: 1.4;
 
     box-sizing: border-box;
 }
+
+h1 { font-size: 40px;
+    font-family: 'Antic Didone', serif;
+    color: rosybrown;
+   }
+h2 { font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+   color: rosybrown
+   ;}
+h3 { font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+   color: rosybrown
+   ;}
 
 img { 
     max-width: 100%;
@@ -51,15 +64,16 @@ h3 { font-size: 24px;
 
 header {
     background-color: thistle;
+    font-family: 'Antic Didone', serif;
     padding-top: 70px;
     padding-bottom: 40px;;
-    
 
 }
+
 header h1 {
     margin-top: 0;
-    color: white;
     font-family: 'Antic Didone', serif;   
+    color: mistyrose;
 }
 
 header p {
@@ -71,18 +85,23 @@ header p {
 /* -------------------- FOOTER */
 
 footer {
-    background-color: var(--alternate-bg-color);
-    padding-top: var(--vertical-spacer);
-    padding-bottom: var(--vertical-spacer);
-
-    text-align: center;
-    color: black
+    background-color: thistle;
+    font-family: 'Antic Didone', serif;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 
 
 /* -------------------- MODULES */
 
+.news-cimponent {
+    border-width: 1px;
+    border-style: groove;
+    border-color: peru;
+
+    padding: 3%;
+}
 
 
 
@@ -96,4 +115,4 @@ footer {
 
 
 
-
+';.'
