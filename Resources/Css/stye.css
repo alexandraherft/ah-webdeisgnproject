@@ -1,19 +1,17 @@
 /* -------------------- VARIABLES */
 
-
 /* -------------------- GLOBAL DEFAULTS */
-h1,
-h2, 
-h3 {font-family: 'Prata', serif;}
-
 
 body {
-    background-color:rgb(223, 206, 194);
-    box-sizing: border-box;  
-    font-size: ;            
-    color: rgb(33, 36, 39);
+    background-color: oldlace;   
+    font-family: font-family: 'Montserrat', sans-serif;    
+    font-size: 18px;
+    color: black;
+    line-height: 1.4;
 
+    box-sizing: border-box;
 }
+
 img { 
     max-width: 100%;
 }
@@ -21,7 +19,15 @@ img {
 
 /* -------------------- HEADINGS AND TYPE */
 
-
+h1 { font-size: 40px;
+     color: rosybrown;
+    }
+h2 { font-size: 32px;
+    color: rosybrown
+    ;}
+h3 { font-size: 24px;
+    color: rosybrown
+    ;}
 
 
 
@@ -40,33 +46,39 @@ img {
 }
 
 
+
 /* -------------------- HEADER */
-header {  background-color: rgb(223, 206, 194);
-    font-family:font-family: 'Cormorant', serif;
-    padding-top: 50 px;
-    padding-bottom: 20 px;
 
-}
-       
+header {
+    background-color: thistle;
+    padding-top: 70px;
+    padding-bottom: 40px;;
     
-    }
-
-header h1 { 
-    margin-top: 0px;
 
 }
-
-
-footer h1 { 
-    margin-top: 0px;
-
+header h1 {
+    margin-top: 0;
+    color: white;
+    font-family: 'Antic Didone', serif;   
 }
 
-
+header p {
+    colour: white;
+}
 /* -------------------- NAVIGATION */
 
 
 /* -------------------- FOOTER */
+
+footer {
+    background-color: var(--alternate-bg-color);
+    padding-top: var(--vertical-spacer);
+    padding-bottom: var(--vertical-spacer);
+
+    text-align: center;
+    color: black
+}
+
 
 
 /* -------------------- MODULES */
