@@ -1,5 +1,10 @@
 /* -------------------- VARIABLES */
 
+:root {
+    --heading-font: 'Antic Didone', serif;
+
+    --vertical-spacer :20px;
+}
 /* -------------------- GLOBAL DEFAULTS */
 
 body {
@@ -13,7 +18,7 @@ body {
 }
 
 h1, h2, h3{ font-size: 40px;
-    font-family: 'Antic Didone', serif;
+    font-family: var(--heading-font);
     color: rosybrown;
    }
 
@@ -57,26 +62,32 @@ h3 { font-size: 24px;
 
 header {
     background-color: thistle;
-    font-family: 'Antic Didone', serif;
+    font-family:var(--heading-font);
     padding-top: 70px;
     padding-bottom: 40px;;
 
 }
 .header-heading{
-    font-family: 'Antic Didone', serif;
+    font-family: var(--heading-font);
     font-size: 80px;
 }
 
 .header-sub-heading{
-    font-family: 'Antic Didone', serif;
+    font-family: var(--heading-font);
     font-size: 50px;
 }
 
-header p {
-    colour: white;
-}
 /* -------------------- NAVIGATION */
 
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation a {
+    color: red;
+}
 
 /* -------------------- FOOTER */
 
@@ -95,12 +106,12 @@ footer {
     border-width: 1px;
     border-style: groove;
     border-color: peru;
-
+    margin-bottom: var(--vertical-spacer);
     padding: 3%;
 }
 
 .news-component-offset{
-    background-color:
+    background-color:white;
 }
 
 
@@ -111,7 +122,3 @@ footer {
 
 
 
-
-
-
-';.'
