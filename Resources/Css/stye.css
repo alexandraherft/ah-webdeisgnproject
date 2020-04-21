@@ -24,6 +24,7 @@ h1, h2, h3{ font-size: 40px;
 
 
 img { 
+    height: auto;
     max-width: 100%;
 }
 
@@ -85,7 +86,6 @@ header {
     list-style: none;
     background-color: #be9481 ;
     margin-top: 0;
-  
 }
 
 .navigation a {
@@ -93,6 +93,7 @@ header {
     font-family: 'Antic Didone', serif;
     font-style: italic;
     font-weight: bolder;
+    
     
    
 }
