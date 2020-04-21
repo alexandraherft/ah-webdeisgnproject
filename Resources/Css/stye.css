@@ -8,7 +8,7 @@
 /* -------------------- GLOBAL DEFAULTS */
 
 body {
-    background-color: oldlace;   
+    background-color: #e1d9cf;
     font-family: 'Montserrat', sans-serif;  
     font-size: 18px;
     color: black;
@@ -61,20 +61,20 @@ h3 { font-size: 24px;
 /* -------------------- HEADER */
 
 header {
-    background-color: thistle;
+    background-color: #be9481;
     font-family:var(--heading-font);
-    padding-top: 70px;
+    padding-top: 55px;
     padding-bottom: 40px;;
 
 }
 .header-heading{
     font-family: var(--heading-font);
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .header-sub-heading{
     font-family: var(--heading-font);
-    font-size: 50px;
+    font-size: 30px;
 }
 
 /* -------------------- NAVIGATION */
@@ -83,18 +83,26 @@ header {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    background-color: #be9481 ;
+    margin-top: 0;
+  
 }
 
 .navigation a {
-    color: red;
+    color: #694840;
+    font-family: 'Antic Didone', serif;
+    font-style: italic;
+    font-weight: bolder;
+    
+   
 }
 
 /* -------------------- FOOTER */
 
 footer {
-    background-color: thistle;
+    background-color: #be9481;
     font-family: 'Antic Didone', serif;
-    padding-top: 70px;
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 
