@@ -80,6 +80,7 @@ header {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    
     background-color: #767984;
     padding-bottom:10px ;
     padding-top: 10px;
@@ -89,13 +90,17 @@ header {
 
 }
 
-
+  
 .navigation a {
     color: #D6C2BB;
     font-family: 'Antic Didone', serif;
     font-weight: 800;
     justify-content: space-between;
-
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    
     
     
   
@@ -130,7 +135,7 @@ footer {
 .news-component img{
     float:left;
     margin-right: 20px;
-    margin-left: 0px;
+    margin-left: 0;
 
 }
 
