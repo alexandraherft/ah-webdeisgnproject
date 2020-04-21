@@ -8,10 +8,10 @@
 /* -------------------- GLOBAL DEFAULTS */
 
 body {
-    background-color: #e1d9cf;
+    background-color: #E6E0DF;
     font-family: 'Montserrat', sans-serif;  
     font-size: 18px;
-    color: black;
+    color:#D6C2BB;
     line-height: 1.4;
 
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3{ font-size: 40px;
     font-family: var(--heading-font);
-    color: rosybrown;
+    color:#D6C2BB;
    }
 
 
@@ -32,14 +32,9 @@ img {
 /* -------------------- HEADINGS AND TYPE */
 
 h1 { font-size: 40px;
-     color: rosybrown;
+     color:  #b88f8a;
     }
-h2 { font-size: 32px;
-    color: rosybrown
-    ;}
-h3 { font-size: 24px;
-    color: rosybrown
-    ;}
+
 
 
 
@@ -62,10 +57,11 @@ h3 { font-size: 24px;
 /* -------------------- HEADER */
 
 header {
-    background-color: #be9481;
+    background-color:#767984;
     font-family:var(--heading-font);
-    padding-top: 55px;
-    padding-bottom: 40px;;
+    padding-top: 25px; 
+    padding-bottom: 40px;
+  
 
 }
 .header-heading{
@@ -84,7 +80,7 @@ header {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    background-color: #be9481 ;
+    background-color: #767984;
     padding-bottom:10px ;
     padding-top: 10px;
 
@@ -95,10 +91,9 @@ header {
 
 
 .navigation a {
-    color: #694840;
+    color: #D6C2BB;
     font-family: 'Antic Didone', serif;
-    font-style: italic;
-    font-weight: bolder;
+    font-weight: 800;
     justify-content: space-between;
 
     
@@ -109,10 +104,10 @@ header {
 /* -------------------- FOOTER */
 
 footer {
-    background-color: #be9481;
+    background-color:  #767984;
     font-family: 'Antic Didone', serif;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -120,9 +115,10 @@ footer {
 /* -------------------- MODULES */
 
 .news-component {
-    border-width: 1px;
-    border-style: solid;
-    
+    border-width: 6px;
+    border-style: double;
+    border-color: #474950;
+    color:#b88f8a;
     margin-bottom: var(--vertical-spacer);
     
     padding: 3%;
@@ -134,12 +130,15 @@ footer {
 .news-component img{
     float:left;
     margin-right: 20px;
+    margin-left: 0px;
+
 }
 
 .news-component-offset {
-    border-width: 1px;
-    border-style: solid;
-    
+    border-width: 6px;
+    border-style: double;
+    border-color: #474950;
+    color:#b88f8a;
     margin-bottom: var(--vertical-spacer);
     
     padding: 3%;
@@ -150,9 +149,8 @@ footer {
 
 .news-component-offset img {
     float:right;
-    margin-right: 20px;
-    
-
+    margin-left: 20px;
+    margin-right: 0px;
 
 }
 
